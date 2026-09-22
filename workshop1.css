@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.app-header {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  min-height: 72px;
+  padding: 0 28px;
+  background: #ffffff;
+  border-bottom: 1px solid #d9e0ea;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 20px;
+  color: #1f5eff;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 16px;
+  color: #46556d;
+  text-decoration: none;
+}
+
+.cta {
+  border-radius: 6px;
+  background: #1f5eff;
+  color: #d9e0ea;
+  font-weight: 700;
+  padding: 9px 16px;
+  text-decoration: none;
+}
